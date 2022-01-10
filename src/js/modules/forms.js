@@ -1,7 +1,7 @@
 import checkNumInputs from "./checkNumInputs";
 
 const forms = (state) => {
-    const form = document.querySelectorAll('form');
+    const form = document.querySelectorAll('form'),
           inputs = document.querySelectorAll('input');
 
     checkNumInputs('input[name="user_phone"]');

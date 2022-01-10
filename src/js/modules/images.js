@@ -23,7 +23,7 @@ const images = () => {
             bigImage.setAttribute('src', path);
         }
 
-        if (target && taarget.matches('div.popup')) {
+        if (target && target.matches('div.popup')) {
             imgPopup.style.display = 'none';
         }
     });
